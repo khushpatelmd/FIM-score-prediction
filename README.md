@@ -9,7 +9,7 @@ The study population consisted of retrospectively collected data from 803 patien
 **Results**
 Predictions for all 18 individual items in FIM were obtained. The best-performing model was a chained regression model using Bayesian ridge regression. The uniform mean absolute error for all 18 items was 0.80. Patient-level and population-level interpretability was obtained with the help of SHAP values.
 
-**Conclusion **
+**Conclusion**
 Our findings strongly suggest that although predicting individual items in the FIM instrument is challenging, it can be done  using state-of-the-art machine learning models. The predictions, along with the explanations, can help develop a personalized rehabilitation plan.  
 
 # Code
