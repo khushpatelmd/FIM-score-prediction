@@ -1,6 +1,28 @@
-# PyTorch Project Template
-A simple and well designed structure is essential for any Deep Learning project, so after a lot practice and contributing in pytorch projects here's a pytorch project template that combines **simplicity, best practice for folder structure** and **good OOP design**. 
-The main idea is that there's much same stuff you do every time when you start your pytorch project, so wrapping all this shared stuff will help you to change just the core idea every time you start a new pytorch project. 
+# Interpretable Machine Learning approach to predict discharge eighteen-item Functional Independence Measure (FIM) scores for Stroke Rehabilitation
+
+**Background and Purpose**
+Stroke is the leading cause of disability in the United States. Rehabilitation is vital in stroke for recovery. Functional Independence Measure (FIM) is a validated survey instrument comprising of an eighteen-item, seven-level ordinal scale measured at the time of admission and discharge from the rehabilitation center. Predicting all individual 18 items at the time of admission to the rehabilitation center, although difficult, can help plan a better personalized rehabilitation program and answer the expectations of patients and their families. Explaining the individual item predictions at the patient level can help identify the primary outcome predictors and further individualize the rehabilitation plan. 
+
+**Methods**
+The study population consisted of retrospectively collected data from 803 patients (52% male, 45% Caucasian, 18% African American, 79% ischemic stroke) admitted to Memorial Hermann Comprehensive Stroke Center, Houston, Texas, USA. FIM score comprises of 18 items containing ordinal values making it a multioutput regression problem. Popular machine learning and deep learning models like chained Bayesian Ridge Regression, XGBoost, Lightgbm, Random Forest, TabNet were developed. The models were tuned using ree-structured Parzen Estimator algorithm.  SHAP (Shapley Additive explanations) values were obtained to explain the predictions.
+
+**Results**
+Predictions for all 18 individual items in FIM were obtained. The best-performing model was a chained regression model using Bayesian ridge regression. The uniform mean absolute error for all 18 items was 0.80. Patient-level and population-level interpretability was obtained with the help of SHAP values.
+
+**Conclusion **
+Our findings strongly suggest that although predicting individual items in the FIM instrument is challenging, it can be done  using state-of-the-art machine learning models. The predictions, along with the explanations, can help develop a personalized rehabilitation plan.  
+
+# Code
+Due to HIPAA rules for patient data, no code or data can be shared. 
+
+# Packages
+- [scikit-learn](https://scikit-learn.org/stable/) (Machine learning library to develop chained Bayesian ridge regression )
+- [PyTorch](https://pytorch.org/) (An open source deep learning platform) 
+- [Optuna](https://github.com/optuna/optuna/tree/5000dbe185aed6c65a7a07dff41a4c9f000ec52a) (Automatic hyperparameter optimization software framework)
+- [SHAP](https://shap.readthedocs.io/en/latest/index.html) (SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model.)
+
+
+
 
 **So, here’s a simple pytorch template that help you get into your main project faster and just focus on your core (Model Architecture, Training Flow, etc)**
 
