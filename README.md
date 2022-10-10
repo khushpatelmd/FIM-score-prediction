@@ -31,18 +31,22 @@ Due to HIPAA rules for patient data and active research in progress, no data can
 # Result figures
 
 **Initial FIM scores**
-![Initial FIM score](data/overall_FIM_score.png)
 
+![Initial FIM score](data/overall_FIM_score.png)
 
 **Sequence used for chained regression model**
 
-
+![chained_regression](data/chained_regression.jpg)
 
 **Discharge actual vs predicted FIM score and admission FIM score**
 
-
+![Predicted_Vs_Actual](data/predicted_vs_actual.png)
 
 **SHAP score**
+
+![Predicted_Vs_Actual](data/SHAP1.jpg)
+
+![Predicted_Vs_Actual](data/SHAP2.jpg)
 
 
 
