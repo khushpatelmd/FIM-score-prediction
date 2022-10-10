@@ -13,7 +13,7 @@ Predictions for all 18 individual items in FIM were obtained. The best-performin
 Our findings strongly suggest that although predicting individual items in the FIM instrument is challenging, it can be done  using state-of-the-art machine learning models. The predictions, along with the explanations, can help develop a personalized rehabilitation plan.  
 
 # Manuscript
-[Manuscript](data/FIM_score_prediction_Khush_Patel.pdf)
+[Complete manuscript](data/FIM_score_prediction_Khush_Patel.pdf)
 
 
 # Code
@@ -27,6 +27,7 @@ Due to HIPAA rules for patient data and active research in progress, no data can
 6. LightGBM
 7. XGBoost
 ```
+<hr />
 
 # Result figures
 
@@ -50,5 +51,8 @@ Due to HIPAA rules for patient data and active research in progress, no data can
 
 
 
+<hr />
 
+# How to cite
+This repository is a research work in progress. Please contact author (drpatelkhush@gmail.com) for details on reuse of code.
 
