@@ -30,7 +30,7 @@ Due to HIPAA rules for patient data and active research in progress, no data can
 
 # Result figures
 
-**Initial FIM scores**
+![**Initial FIM scores**](overall_FIM_score.png)
 
 
 **Sequence used for chained regression model**
